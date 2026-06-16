@@ -6,8 +6,14 @@
 
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Suwayomi/Suwayomi-Server-preview/releases/download/v2.2.2205/Suwayomi-Server-v2.2.2205-windows-x64.zip",
-            "hash": "be4f9a793e277327c92e382f553dfb92bdc7d606c3126e0007f550dccac71394",
+            "url": [
+                "https://github.com/Suwayomi/Suwayomi-Server-preview/releases/download/v2.2.2205/Suwayomi-Server-v2.2.2205-windows-x64.zip",
+                "https://raw.githubusercontent.com/Suwayomi/Suwayomi-Server/refs/heads/master/server/src/main/resources/icon/faviconlogo.ico"
+            ],
+            "hash": [
+                "be4f9a793e277327c92e382f553dfb92bdc7d606c3126e0007f550dccac71394",
+                "3E5B32450BC8659F41B5DA5B85A246D8E500EA5B93C917ABB8032E6F80068550"
+             ],
             "extract_dir": "Suwayomi-Server-v2.2.2205-windows-x64"
         }
     },
@@ -15,7 +21,9 @@
     "shortcuts": [
         [
             "Suwayomi Launcher.bat",
-            "Suwayomi Server"
+            "Suwayomi",
+            "",
+            "faviconlogo.ico"
         ]
     ],
 
