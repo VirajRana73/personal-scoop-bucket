@@ -12,7 +12,6 @@ jobs:
 update:
 runs-on: windows-latest
 
-```
 steps:
   - name: Checkout repository
     uses: actions/checkout@v4
@@ -49,4 +48,3 @@ steps:
       } else {
         Write-Host "No updates available"
       }
-```
