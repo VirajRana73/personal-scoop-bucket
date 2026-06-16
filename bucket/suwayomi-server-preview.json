@@ -27,10 +27,7 @@
         ]
     ],
 
-    "checkver": {
-        "github": "Suwayomi/Suwayomi-Server-preview"
-    },
-
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
