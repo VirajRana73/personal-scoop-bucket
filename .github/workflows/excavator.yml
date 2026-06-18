@@ -3,8 +3,8 @@ name: Excavator
 on:
   workflow_dispatch:
   schedule:
-    # run every 24 hours at 09.00 AM IST
-    - cron: '30 3 * * *'
+    - cron: '10 9 * * *' # Target 9:10 AM local time
+      timezone: 'Asia/Kolkata' # Uses official IANA format
 
 permissions:
   contents: write
