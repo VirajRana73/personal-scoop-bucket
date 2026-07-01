@@ -3,9 +3,7 @@ name: Excavator
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 9 * * *' # Target 9:10 AM local time
-      timezone: 'Asia/Kolkata' # Uses official IANA format
-
+    - cron: '40 3 * * *' # Target 9:10 AM local time
 permissions:
   contents: write
 
