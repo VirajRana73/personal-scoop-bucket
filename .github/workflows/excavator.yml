@@ -3,8 +3,8 @@ name: Excavator
 on:
   workflow_dispatch:
   schedule:
-  # Runs 4 times daily at 02:00 AM, 08:00 AM, 02:00 PM, 08:00 PM IST
-  - cron: '30 20,2,8,14 * * *'
+  # Runs 4 times daily at 07:00 AM, 01:00 PM, 07:00 PM, 01:00 AM IST
+  - cron: '30 19,1,7,13 * * *'
 permissions:
   contents: write
 
