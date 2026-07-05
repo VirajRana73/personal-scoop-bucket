@@ -1,19 +1,19 @@
 {
-    "version": "2.3.2232",
+    "version": "2.3.2239",
     "description": "Suwayomi Server Preview",
     "homepage": "https://github.com/Suwayomi/Suwayomi-Server-preview",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/Suwayomi/Suwayomi-Server-preview/releases/download/v2.3.2232/Suwayomi-Server-v2.3.2232-windows-x64.zip",
+                "https://github.com/Suwayomi/Suwayomi-Server-preview/releases/download/v2.3.2239/Suwayomi-Server-v2.3.2239-windows-x64.zip",
                 "https://raw.githubusercontent.com/Suwayomi/Suwayomi-Server/refs/heads/master/server/src/main/resources/icon/faviconlogo.ico"
             ],
             "hash": [
-                "12160a19ed6a341b726cf404511405ea45cbd882282e4d3fa873d844016af14a",
+                "a0cec5fa25efcb9f2d83b17966755105241a1ea8f72d1bd7822cee3c846bb8ad",
                 "3E5B32450BC8659F41B5DA5B85A246D8E500EA5B93C917ABB8032E6F80068550"
             ],
-            "extract_dir": "Suwayomi-Server-v2.3.2232-windows-x64"
+            "extract_dir": "Suwayomi-Server-v2.3.2239-windows-x64"
         }
     },
     "shortcuts": [
